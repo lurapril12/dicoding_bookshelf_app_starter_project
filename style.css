@@ -1,0 +1,110 @@
+/* Styling umum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #433e62;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  form div {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 15px;
+  }
+
+  /* Mengatur posisi label dan checkbox */
+.form-check {
+    display: flex;
+    align-items: center; /* Menyelaraskan vertikal */
+    gap: 10px; /* Memberikan jarak/gap antara teks dan checkbox */
+  }
+  
+  .form-check label {
+    margin-right: 10px; /* Jarak antara label dan checkbox */
+  }
+  
+
+  button {
+    margin-top: 5px;
+    padding: 0.5rem 1rem;
+    background-color: #433e62;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background-color: #2a273d;
+  }
+  
+  section {
+    margin-top: 2rem;
+  }
+  
+  .book-item {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .book-item h3 {
+    margin-top: 0;
+  }
+  
+  /* Dark mode styling */
+  body.dark-mode {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+  }
+  
+  header.dark-mode {
+    background-color: #333;
+  }
+  
+  button.dark-mode {
+    background-color: #7e4a4a;
+    color: #e0e0e0;
+  }
+  
+  button.dark-mode:hover {
+    background-color: #603939;
+  }
+  
+  .book-item.dark-mode {
+    border-color: #603939;
+  }
+  
+  .book-item.dark-mode h3,
+  .book-item.dark-mode p {
+    color: #e0e0e0;
+  }
+  
