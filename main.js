@@ -82,10 +82,10 @@ function renderBooks() {
 // Tambah buku baru
 function addBook(title, author, year, isComplete) {
   const newBook = {
-    id: +new Date(), // ID unik berdasarkan timestamp
+    id: +new Date(),
     title,
     author,
-    year,
+    year: parseInt(year),
     isComplete,
   };
 
@@ -93,6 +93,7 @@ function addBook(title, author, year, isComplete) {
   saveBooksToStorage();
   renderBooks();
 }
+
 
 // Ubah status buku selesai dibaca atau belum
 function toggleBookCompleteStatus(bookId) {
